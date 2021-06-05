@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+	font-family: Century Gothic;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: burlywood;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: palevioletred;
+  }
+  
+  .actived {
+    background-color: blue;
+    color: yellowgreen;
+    font-weight: 700;
+  }
+
+  .content {
+      margin-top: 15px;
+      margin-bottom: 30px;
+      margin-left: 20%;
+      margin-right: 20%;
+  }
+
+  footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 20px;
+  }
